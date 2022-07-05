@@ -1,0 +1,70 @@
+.common{
+      height: 40%;
+      width: 30%;
+      margin: 20px;
+      border: 10px solid black;
+      left: 50%;
+      right: 50%;
+      border-radius: 50px;
+}
+
+.green{
+      background-color: green;
+}
+
+.red{
+      background-color: red;
+}
+
+.yellow{
+      background-color: yellow;
+}
+
+.blue{
+      background-color: blue;
+}
+
+body{
+      background-color: rgb(6, 6, 58);
+      
+      font-family: 'Rubik Glitch', cursive;
+      color: whitesmoke;
+}
+div{
+      width: 80%;
+      height: 60%;
+      padding: 20px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      display: inline-block;
+      flex-direction: column;
+      text-align: center;
+}
+
+span{
+      display: block;
+      font-size: 4rem;
+      text-align: center;
+      font-weight: 10px;
+}
+
+footer{
+      position: absolute;
+      bottom: 1px;
+      left: 36%;
+      font-size: 2rem;
+      
+}
+
+#start{
+      position: absolute;
+      bottom: 7%;
+      left: 40%;
+      width: 20%;
+      height: 50px;
+      
+      font-family: 'Rubik Glitch', cursive;
+      font-size: 30px;
+}
