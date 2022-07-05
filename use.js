@@ -69,7 +69,7 @@ function toggle(id) {
       document.querySelectorAll('button')[id].style.opacity = 0.2;
       setTimeout(() => {
             document.querySelectorAll('button')[id].style.opacity = 1;
-      }, 300);
+      }, 100);
 }
 
 function getRandom(level)
@@ -93,7 +93,7 @@ function automation()
       check_e = 0;
       array = getRandom(level)
       i = 0;
-      name1 = setInterval(auto,600)
+      name1 = setInterval(auto,400)
 }
 function auto() {
       console.log(i)
@@ -102,7 +102,7 @@ function auto() {
       document.querySelectorAll('button')[temp].style.opacity = 0.2;
       setTimeout(() => {
             document.querySelectorAll('button')[temp].style.opacity = 1;
-      }, 500);
+      }, 300);
       
       i++;
       if(i >= level)
